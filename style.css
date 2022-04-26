@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend', sans-serif;
+}
+
+.card{
+    background-image: url(./assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    width: 400px;
+    height: 200px;
+    padding: 1px 20px;
+    margin: 50px auto;
+}
+
+h1{
+    font-size: 26px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.insta{
+    list-style-image: url(./assets/insta.png);
+}
+
+.tt{
+    list-style-image: url(./assets/twitter.png);
+}
+
+.ytb{
+    list-style-image: url(./assets/youtube.png);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
